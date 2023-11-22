@@ -15,22 +15,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/signup': (context) => SignUpScreen(),
         '/signin': (context) => SignInScreen(),
-        '/home': (context) => HomeScreen(),
       },
-    );
-  }
-}
-
-class HomeScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Pantalla Principal'),
-      ),
-      body: Center(
-        child: Text('¡Bienvenido!'),
-      ),
     );
   }
 }
